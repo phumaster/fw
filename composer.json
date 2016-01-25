@@ -1,0 +1,17 @@
+{
+    "name": "root/fw",
+    "description": "my framework",
+    "license": "free",
+    "authors": [
+        {
+            "name": "phumaster",
+            "email": "phumaster.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+          "App\\": "app/"
+      }  
+    },
+    "require": {}
+}
