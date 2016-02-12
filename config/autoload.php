@@ -8,6 +8,6 @@
  | Email: phumaster.dev@gmail.com 
  */
 
-class Model {
-    
-}
+return [
+    'libs' => 'library',
+];

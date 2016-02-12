@@ -16,7 +16,7 @@ return [
     
     'dbuser' => 'root',
     
-    'dbname' => '',
+    'dbname' => 'upload_image',
     
     'dbpass' => 'root'
 ];

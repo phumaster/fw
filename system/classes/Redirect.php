@@ -9,8 +9,8 @@
  */
 namespace PM;
 
-class Controller {
-    public function __construct() {
-        
+class Redirect {
+    public static function to($target) {
+        return header("Location: {$target}");
     }
 }

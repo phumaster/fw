@@ -7,6 +7,7 @@
   | Alias: Phu Master
   | Email: phumaster.dev@gmail.com
  */
+namespace PM;
 
 class Config {
 
@@ -16,13 +17,13 @@ class Config {
     private static function load($filename) {
         $config = self::$config_path . '/' . $filename . '.php';
         if (file_exists($config)) {
-            self::$config = require_once $config;
+            self::$config = require $config;
         }
     }
-    
+
     public static function get($name) {
         self::load($name);
-        return (object)self::$config;
+        return (object) self::$config;
     }
 
 }
