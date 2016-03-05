@@ -1,5 +1,0 @@
-[Thu Feb 11 17:16:48.230325 2016] [:error] [pid 1983] [client 127.0.0.1:43605] PHP Fatal error:  Trait 'PM\\Controller' not found in /home/webdata/fw/system/classes/App.php on line 24
-[Thu Feb 11 17:20:29.797724 2016] [:error] [pid 2435] [client 127.0.0.1:43607] PHP Fatal error:  Class 'View' not found in /home/webdata/fw/app/routes.php on line 18
-[Thu Feb 11 17:26:11.817057 2016] [:error] [pid 1987] [client 127.0.0.1:43610] PHP Warning:  Invalid argument supplied for foreach() in /home/webdata/fw/app/views/welcome.php on line 10
-[Thu Feb 11 17:28:12.128444 2016] [:error] [pid 1986] [client 127.0.0.1:43612] PHP Notice:  Undefined variable: this in /home/webdata/fw/system/common/functions_app.php on line 14
-[Thu Feb 11 17:28:12.128477 2016] [:error] [pid 1986] [client 127.0.0.1:43612] PHP Fatal error:  Class name must be a valid object or a string in /home/webdata/fw/system/common/functions_app.php on line 14

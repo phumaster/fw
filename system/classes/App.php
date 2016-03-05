@@ -10,7 +10,7 @@
 
 class App {
 
-    private $class = ['Config', 'Redirect', 'DB', 'Controller', 'View', 'Route'];
+    private $class = ['Config', 'Session', 'Redirect', 'DB', 'Controller', 'View', 'Route'];
 
     public function __call($name, $arguments) {
         $this->initialize();
@@ -21,7 +21,7 @@ class App {
             require __SYSTEM_PATH . '/classes/' . $class . '.php';
         }
     }
-    
+
     public function __destruct() {
         require __SYSTEM_PATH . '/common/functions_app.php';
         require __APP_PATH . '/routes.php';

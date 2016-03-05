@@ -3,14 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/webdata/fw/system/common/functions_app.php</file>
             <file>file:/home/webdata/fw/index.php</file>
             <file>file:/home/webdata/fw/system/classes/Session.php</file>
+            <file>file:/home/webdata/fw/app/views/welcome.php</file>
             <file>file:/home/webdata/fw/system/classes/DB.php</file>
-            <file>file:/home/webdata/fw/system/classes/App.php</file>
-            <file>file:/home/webdata/fw/log/error.log</file>
             <file>file:/home/webdata/fw/app/routes.php</file>
             <file>file:/home/webdata/fw/app/controllers/WelcomeController.php</file>
+            <file>file:/home/webdata/fw/system/classes/Redirect.php</file>
         </group>
     </open-files>
 </project-private>
