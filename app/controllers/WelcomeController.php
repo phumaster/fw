@@ -15,6 +15,8 @@ use PM\DB;
 use PM\Redirect;
 use PM\Session;
 
+use App\models\User;
+
 class WelcomeController extends Controller {
 
     public function __construct() {
@@ -22,6 +24,8 @@ class WelcomeController extends Controller {
     }
 
     public function hello() {
+        $model = new User();
+        echo $model;
         $arr = [
             'album_name' => 'hahahahahah',
             'album_title' => 'PDO',
